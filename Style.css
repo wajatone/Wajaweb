@@ -1,0 +1,24 @@
+h2,p,h1,ul,li {
+   font-family: Arial, sans-serif;
+}
+
+
+body {
+   background-color: rgb(182, 177, 177);
+}
+
+
+hr {
+   background-color:black;
+   padding: 3px;
+   border-radius: 20px;
+}
+
+
+a {
+   padding: 25px;
+}
+
+
+
+
