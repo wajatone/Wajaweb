@@ -17,6 +17,8 @@ hr {
 
 a {
    padding: 25px;
+   text-decoration: none;
+   font-family: Arial, sans-serif;
 }
 
 .pfp {
