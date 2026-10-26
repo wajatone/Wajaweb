@@ -25,20 +25,28 @@ a {
    border-radius: 200px;
 }
 
+
 .bloque-de-fotos {
    display: grid;
-   grid-template-columns: 410px 410px 410px;
+   grid-template-columns: 1fr 1fr 1fr;
    background-color: rgb(148, 147, 147);
    border-radius: 5px; 
+   margin: auto;
+   gap: 10px;
+   padding: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 .fotos {
    border-radius: 5px;
-   width: 400px;
-   margin: 10px;
+   width: 100%;
+   height: auto;
    border: 2px solid black;
+   box-sizing: border-box;
 }
 
 .titulo-del-bloque {
    grid-column: 1/-1;
+   margin-left: 10px;
 }
