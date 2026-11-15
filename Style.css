@@ -1,10 +1,7 @@
-h2,p,h1,ul,li {
-   font-family: Arial, sans-serif;
-}
-
 
 body {
    background-color: rgb(182, 177, 177);
+   font-family: Arial, sans-serif;
 }
 
 
@@ -50,3 +47,4 @@ a .pfp {
    grid-column: 1/-1;
    margin-left: 10px;
 }
+

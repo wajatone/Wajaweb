@@ -1,0 +1,132 @@
+
+body {
+   background-color: rgb(182, 177, 177);
+   font-family: Arial, sans-serif;
+}
+
+
+hr {
+   background-color:black;
+   padding: 3px;
+   border-radius: 20px;
+}
+
+
+a {
+   padding: 25px;
+   text-decoration: none;
+   font-family: Arial, sans-serif;
+}
+
+a .pfp {
+   border-radius: 200px;
+}
+
+
+.bloque-de-fotos {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   background-color: rgb(148, 147, 147);
+   border-radius: 5px; 
+   margin: auto;
+   gap: 10px;
+   padding: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.fotos {
+   border-radius: 5px;
+   width: 100%;
+   height: auto;
+   border: 2px solid black;
+   box-sizing: border-box;
+}
+
+.titulo-del-bloque {
+   grid-column: 1/-1;
+   margin-left: 10px;
+}
+
+   .proyectos {
+      background-color: #DAD7CD;
+      border: 5px solid #3A5A40  ;
+      border-radius: 10px;
+      margin: 40px;
+      margin-left: 250px;
+      margin-right: 250px;
+}
+
+   .proyectos * { /* Coje todo lo de dentro de proyectos para hacer que tengan un margen con el borde y no se peguen*/
+      margin: 10px;
+   }
+
+   .proyectos h1 { 
+      display: flex;
+      justify-content: center; /* Centrar el titulo */
+      font-family: 'Silkscreen', monospace; 
+   }
+
+   .contenido {  /* Esto separa el div de texto con el resto (la imagen). */
+      display: flex;
+      justify-content: space-between;   
+   }
+
+   .texto * {
+      font-size: larger;
+      font-family: 'VT323', monospace;
+   }
+
+   footer {
+      border-top: 5px solid #3A5A40;
+   }
+
+   .contenido-footer {
+      display: flex;
+      justify-content: space-between;   
+   }
+
+   .specs p {
+      display: inline-block;
+      background-color: #3A5A40;
+      border-radius: 10px;
+      font-size: larger;
+      padding: 4px;
+      color: #DAD7CD;
+   }
+
+   .enlaces {
+      display: flex;
+      font-size: xx-large;
+      gap: 15px;
+   }
+
+   .enlaces a{
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+   }
+
+   .enlaces .github {
+      background-color: #000000;
+      color: aliceblue;
+   }
+
+   .enlaces .explicacion {
+      background-color: #3A5A40;
+      color: #DAD7CD;
+   }
+
+   .enlaces .github img {
+      width: 100px;
+      height: auto;
+   }
+
+   .enlaces .explicacion img {
+      width: 100px;
+      height: auto;
+   }
+
+   .imagen-preview img {
+    border-radius: 10px;
+   }
