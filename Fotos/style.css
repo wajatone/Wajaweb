@@ -8,23 +8,34 @@ a {
    text-decoration: none;
 }
 
+p {
+   font-family: 'VT323', monospace;
+   font-size: x-large;
+}
+
+h1, h2 {
+   font-family: 'Silkscreen', monospace;
+}
+
 .bloque-de-fotos {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   background-color: rgb(148, 147, 147);
+   background-color: #DAD7CD;
+   border: 5px solid #3A5A40;
    border-radius: 5px; 
-   margin: auto;
+   margin:200;
    gap: 10px;
    padding: 15px;
-   margin-top: 10px;
-   margin-bottom: 10px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   
 }
 
 .fotos {
    border-radius: 5px;
    width: 100%;
    height: auto;
-   border: 2px solid black;
+   border: 2px solid #DAD7CD;
    box-sizing: border-box;
 }
 
