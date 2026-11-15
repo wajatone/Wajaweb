@@ -13,11 +13,6 @@ p, li {
    font-size: x-large;
 }
 
-hr {
-   background-color: black;
-   padding: 3px;
-   border-radius: 20px;
-}
 
 a {
    text-decoration: none;

@@ -4,24 +4,9 @@ body {
    font-family: Arial, sans-serif;
 }
 
-
-hr {
-   background-color:black;
-   padding: 3px;
-   border-radius: 20px;
-}
-
-
 a {
-   padding: 25px;
    text-decoration: none;
-   font-family: Arial, sans-serif;
 }
-
-a .pfp {
-   border-radius: 200px;
-}
-
 
 .bloque-de-fotos {
    display: grid;
@@ -49,6 +34,7 @@ a .pfp {
 }
 
 /* Barra de navegación */
+
 nav {
    display: flex;
    align-items: center;
