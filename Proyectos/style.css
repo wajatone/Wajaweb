@@ -1,6 +1,6 @@
 
 body {
-   background-color: rgb(182, 177, 177);
+   background-color: #A5AA96 ;
    font-family: Arial, sans-serif;
 }
 
@@ -8,7 +8,7 @@ a {
      text-decoration: none;
 }
    .proyectos {
-      background-color: #A5AA96 ;
+      background-color: #DAD7CD ;
       border: 5px solid #3A5A40 ;
       border-radius: 10px;
       margin: 40px;
