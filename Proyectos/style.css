@@ -47,11 +47,17 @@ a {
 
    .specs p {
       display: inline-block;
+      margin: 20px;
       background-color: #3A5A40;
       border-radius: 10px;
-      font-size: larger;
-      padding: 4px;
+      font-size: xx-large;
+      padding: 20px;
       color: #DAD7CD;
+      font-family: 'VT323', monospace;
+   }
+
+   .specs h2 {
+      font-family: 'Silkscreen', monospace; 
    }
 
    .enlaces {
