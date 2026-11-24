@@ -44,3 +44,12 @@ nav .nav {
    padding: 15px;
 }
 
+.pres {
+      background-color: #DAD7CD ;
+      border: 5px solid #3A5A40 ;
+      border-radius: 10px;
+      margin: 40px;
+      margin-left: 250px;
+      margin-right: 250px;
+      padding: 10px;
+   }

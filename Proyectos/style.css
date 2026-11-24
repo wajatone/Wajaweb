@@ -96,6 +96,12 @@ a {
     border-radius: 10px;
    }
 
+   .enlaces .github span {
+      font-family: 'VT323', monospace;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
    /* Barra de navegación */
 nav {
    display: flex;
